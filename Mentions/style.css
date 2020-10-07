@@ -1,0 +1,327 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/*----------navbar----------*/
+.imglogo {
+  margin-top: 2.5%;
+  display: flex;
+  justify-content: center;
+}
+.logosvg
+{
+  width: 15%;
+}
+.navbar {
+  padding-bottom: 10px;
+  width: 100%; 
+}
+.main-nav {
+  list-style: none;
+  text-decoration: none;
+  display: none;
+  font-family: 'Cutive Mono', monospace;
+}
+.nav-mot {
+  text-decoration: none;
+}
+.main-nav li {
+  transition: all 350ms;
+  text-align: center;
+  margin: 3rem auto;
+}
+.main-nav li:hover{
+  transform: scale(1.15);
+}
+.nav-mot:hover {
+  color: rgb(77, 141, 77);
+  
+}
+.navbar2 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+}
+.active {
+  display: block;
+}
+@media screen and (min-width: 800px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .main-nav li {
+    margin: 0;
+  }
+  .nav-mot {
+    margin-left: 40px; 
+  }
+  .nav-mot:hover {
+    transition: all 150ms;
+    color: rgb(77, 141, 77);
+  }
+  .navbar2 {
+    display: none;
+  }
+  .logo {
+    margin-top: 0;
+  }
+}
+.logo {
+  visibility: hidden;
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 5px;
+  margin-left: -95px;
+}
+@media screen and (max-width: 1120px) {
+  .nav-list {
+    flex-direction: column;
+  }
+  .about-details .nav-list {
+    flex-direction: row;
+  }
+}
+#trait
+{
+    border-top: 1px solid #8d8d8d;
+    width: 70%;
+    margin: auto;   
+}
+@media screen and (max-width: 700px) {
+  .logosvg
+  {
+  width: 25%;
+  }
+  .imglogo
+  {
+    margin-top: 2%;
+    display: flex;
+    justify-content: left;
+    margin: 8% 0% 2% 8%;
+    width: 90%;
+  }
+  .navbar2 
+  {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin: 5%;
+  }
+}
+
+
+/*----------Tarifs à la séance----------*/
+.traitsoustitre
+{
+  width: 15%;
+  margin: auto;
+  margin-top: 0%;
+}
+.titreateliers
+{
+  display: flex;
+  justify-content: center;
+  margin: 5% 0% 0% 0%;
+  font-family: 'Stalemate', cursive;
+  font-size: 400%;
+}
+.mentionslegales
+{
+  font-family: 'Cutive Mono', monospace;
+  margin: 2% 20%;
+}
+.mentionslegales h2
+{
+  margin: 5%;
+  text-align: center;
+}
+.mentionslegales h3
+{
+  margin: 3%;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  .traitsoustitre
+  {
+  width: 50%;
+  margin: auto;
+  margin-top: 0%;
+  }
+  .mentionslegales 
+  {
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    width: 80%;
+    margin: 15% auto;
+    font-size: 70%;
+  }
+}
+/*----------Footer----------*/
+.allfooter
+{
+  background-color: rgb(147, 192, 188);
+  margin-top: 5%;
+}
+.footer
+{
+    width: 100%;
+    height: 130px;
+}
+.logoreseau
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 300%;
+    padding: 2% 2% 2% 2%;
+    margin: 0% 30%;
+}
+.logofb 
+{
+    margin: 0% 1% 0% 1%;
+}
+.logofb i
+{
+    color: rgb(255, 255, 255);
+    margin: 0% 1% 0% 1%;
+    transition: all 350ms;
+}
+.logofb :hover
+{
+    color: rgb(40, 114, 252);
+    transform: scale(1.3);
+}
+.logoinsta
+{
+    margin: 0% 1% 0% 1%;
+}
+.logoinsta i
+{
+    color: rgb(255, 255, 255);
+    margin: 0% 1% 0% 1%;
+    transition: all 350ms;
+}
+.logoinsta :hover
+{
+    transform: scale(1.3);
+    color: rgb(252, 115, 90);
+}
+.logomail
+{
+    margin: 0% 1% 0% 1%;
+}
+.logomail i
+{
+    color: rgb(255, 255, 255);
+    margin: 0% 1% 0% 1%;
+    transition: all 350ms;
+}
+.logomail :hover
+{
+    transform: scale(1.3);
+    color: rgb(17, 134, 202);
+}
+.mentions
+{
+  font-family: 'Cutive Mono', monospace;
+  margin-right: 2%;
+}
+.mentions :hover
+{
+  color: white;
+}
+.copyright
+{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1%;
+  font-size: 70%;
+}
+.copy
+{
+  margin-right: 0.5%;
+  font-family: 'Cutive Mono', monospace;
+}
+.date
+{
+  margin-left: 1%;
+  font-family: 'Cutive Mono', monospace;
+}
+.textcopy
+{
+  margin-left: 2%;
+  font-family: 'Cutive Mono', monospace;
+}
+.textcopy :hover
+{
+  color: white;
+}
+@media screen and (max-width: 700px){
+  .copyright 
+  {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+    font-size: 50%;
+    margin: auto;
+  }
+  .logoreseau 
+  {
+    display: flex;
+    justify-content: space-around;
+    font-size: 300%;
+    margin: auto;
+    padding: 7%;
+  }
+}
+
+
+
+
+/*----------Others----------*/
+.reveal-loaded .reveal [class*="reveal-"] {
+  opacity: 0!important;
+  transform: translateY(30px)!important;
+  transition: 0s!important;
+}
+
+.reveal-loaded [class*="reveal-"]{
+  transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+.reveal-loaded  .reveal-2 {
+  transition-delay: .1s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal [class*="reveal-"] {
+      opacity: 1!important;
+      transform: translateY(0px)!important;
+  }
+  [class*="reveal-"]{
+      transition-duration: 0s!important;
+      transition-delay: 0s!important;
+  }
+}
+
+
+
+
+

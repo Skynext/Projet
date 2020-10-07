@@ -1,0 +1,567 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/*----------navbar----------*/
+.imglogo {
+  margin-top: 2.5%;
+  display: flex;
+  justify-content: center;
+}
+.logosvg
+{
+  width: 15%;
+}
+.navbar {
+  padding-bottom: 10px;
+  width: 100%; 
+}
+.main-nav {
+  list-style: none;
+  text-decoration: none;
+  display: none;
+  font-family: 'Cutive Mono', monospace;
+}
+.nav-mot {
+  text-decoration: none;
+}
+.main-nav li {
+  transition: all 350ms;
+  text-align: center;
+  margin: 3rem auto;
+}
+.main-nav li:hover{
+  transform: scale(1.15);
+}
+.nav-mot:hover {
+  color: rgb(77, 141, 77);
+  
+}
+.navbar2 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+}
+.active {
+  display: block;
+}
+@media screen and (min-width: 700px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .main-nav li {
+    margin: 0;
+  }
+  .nav-mot {
+    margin-left: 40px; 
+  }
+  .nav-mot:hover {
+    transition: all 150ms;
+    color: rgb(77, 141, 77);
+  }
+  .navbar2 {
+    display: none;
+  }
+  .logo {
+    margin-top: 0;
+  }
+}
+.logo {
+  visibility: hidden;
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 5px;
+  margin-left: -95px;
+}
+@media screen and (max-width: 1120px) {
+  .nav-list {
+    flex-direction: column;
+  }
+  .about-details .nav-list {
+    flex-direction: row;
+  }
+}
+#trait
+{
+    border-top: 1px solid #8d8d8d;
+    width: 70%;
+    margin: auto;   
+}
+@media screen and (max-width: 700px) {
+  .logosvg
+  {
+  width: 25%;
+  }
+  .imglogo
+  {
+    margin-top: 2%;
+    display: flex;
+    justify-content: left;
+    margin: 8% 0% 2% 8%;
+    width: 90%;
+  }
+  .navbar2 
+  {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin: 5%;
+  }
+}
+
+
+
+
+/*----------Section Image Bandeau----------*/
+.imgbandeau
+{
+    display: flex;
+    justify-content: center;
+}
+.imgbandeau {
+    margin-top: 2%;
+    background:  
+    url(img/image1.jpg) center center / cover no-repeat;
+    height: 500px;
+}
+/*----------Section Formulaire----------*/
+input
+{
+  width: 450px;
+  height: 40px;
+  border: solid 1px rgb(223, 189, 77);
+  border-radius: 10px;
+  padding-left: 1.5%;
+  font-family: 'Cutive Mono', monospace;
+}
+textarea
+{
+  width: 450px;
+  height: 140px;
+  border: solid 1px rgb(223, 189, 77);
+  border-radius: 10px;
+  padding: 1.5% 0% 0% 1.5%;
+  font-family: 'Cutive Mono', monospace;
+}
+button
+{
+  border: solid 2px rgb(255, 255, 255);
+  background-color: rgb(223, 189, 77);
+  border-radius: 5px;
+  width: 20%;
+  height: 50px;
+  transition: all 350ms;
+  font-family: 'Cutive Mono', monospace;
+}
+#name::placeholder
+{
+  margin-left: 2%;
+  font-family: 'Cutive Mono', monospace;
+}
+.contact
+{
+  display: flex;
+  flex-direction: column;
+  margin: 7% 0% 7% 0%;
+}
+.Nom
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+.email
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+.sujet
+{
+  display: flex;
+  justify-content: center;
+}
+.message
+{
+  display: flex;
+  justify-content: center;
+  margin: 1% 0% 0% 0%;
+}
+.calcul
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+/*
+#textoui
+{
+  color: rgb(98 173 98);
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  width: 300px;
+  margin: 5% auto;
+  border-radius: 5px;
+}
+#textnon
+{
+border: 1px solid #ff0000;
+padding: 5px;
+display: flex;
+flex-direction: column;
+text-align: center;
+margin: 5% auto;
+width: 350px;
+border-radius: 10px;
+}
+#textnon2
+{
+  color: #ff0000;
+}
+*/
+.button
+{
+  display: flex;
+  justify-content: center;
+  margin: 2% 0% 5% 0%;
+  transition: all 350ms;
+}
+.button :hover 
+{
+    transform: scale(1.1);
+    background-color: rgb(147, 192, 175, 0.637);
+}
+/*----------Section Contact----------*/
+#trait2
+{
+    border-top: 1px solid #8d8d8d;
+    width: 70%;
+    margin: auto;   
+}
+.titremecontacter
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+  font-size: 230%;
+  font-family: 'Stalemate', cursive;
+}
+.mecontacter
+{
+  margin-top: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.phone
+{
+  display: flex;
+  flex-direction: column;
+}
+.phone i
+{
+  font-size: 400%;
+  margin: 0% 0% 30% 25%;
+  color: rgb(223, 189, 77);
+}
+.map
+{
+  display: flex;
+  flex-direction: column;
+}
+.map i
+{
+  font-size: 400%;
+  margin: 0% 0% 30% 25%;
+  color: rgb(223, 189, 77);
+}
+.mail
+{
+  display: flex;
+  flex-direction: column;
+}
+.mail i
+{
+  font-size: 400%;
+  margin: 0% 0% 13.3% 36%;
+  color: rgb(223, 189, 77);
+}
+.clock
+{
+  display: flex;
+  flex-direction: column;
+}
+.clock i
+{
+  font-size: 400%;
+  margin: 0% 0% 21% 31%;
+  color: rgb(223, 189, 77);
+}
+.textcontact
+{
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+}
+.textcontactbis
+{
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+  margin-bottom: 10%;
+}
+@media screen and (max-width: 1000px) {
+  input
+  {
+  width: 350px;
+  height: 40px;
+  border: solid 1px rgb(223, 189, 77);
+  border-radius: 10px;
+  padding-left: 1.5%;
+  font-family: 'Cutive Mono', monospace;
+  }
+  textarea
+  {
+  width: 350px;
+  height: 140px;
+  border: solid 1px rgb(223, 189, 77);
+  border-radius: 10px;
+  padding: 1.5% 0% 0% 1.5%;
+  font-family: 'Cutive Mono', monospace;
+  }
+  .mecontacter
+  {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  }
+.phone
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8%;
+}
+.phone i
+{
+  font-size: 200%;
+  margin: auto;
+  color: rgb(223, 189, 77);
+}
+.map
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8%;
+}
+.map i
+{
+  font-size: 200%;
+  margin: auto;
+  color: rgb(223, 189, 77);
+}
+.mail
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8%;
+}
+.mail i
+{
+  font-size: 200%;
+  margin: auto;
+  color: rgb(223, 189, 77);
+}
+.clock
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8%;
+}
+.clock i
+{
+  font-size: 200%;
+  margin: auto;
+  color: rgb(223, 189, 77);
+}
+.textcontact
+{
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+}
+.textcontactbis
+{
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+  margin-bottom: 2%;
+}
+}
+
+
+/*----------Footer----------*/
+.allfooter
+{
+  background-color: rgb(147, 192, 188);
+  margin-top: 10%;
+}
+.footer
+{
+    width: 100%;
+    height: 130px;
+}
+.logoreseau
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 300%;
+    padding: 2% 2% 2% 2%;
+    margin: 0% 30%;
+}
+.logofb 
+{
+    margin: 0% 1% 0% 1%;
+}
+.logofb i
+{
+    color: rgb(255, 255, 255);
+    margin: 0% 1% 0% 1%;
+    transition: all 350ms;
+}
+.logofb :hover
+{
+    color: rgb(40, 114, 252);
+    transform: scale(1.3);
+}
+.logoinsta
+{
+    margin: 0% 1% 0% 1%;
+}
+.logoinsta i
+{
+    color: rgb(255, 255, 255);
+    margin: 0% 1% 0% 1%;
+    transition: all 350ms;
+}
+.logoinsta :hover
+{
+    transform: scale(1.3);
+    color: rgb(252, 115, 90);
+}
+.logomail
+{
+    margin: 0% 1% 0% 1%;
+}
+.logomail i
+{
+    color: rgb(255, 255, 255);
+    margin: 0% 1% 0% 1%;
+    transition: all 350ms;
+}
+.logomail :hover
+{
+    transform: scale(1.3);
+    color: rgb(17, 134, 202);
+}
+.mentions
+{
+  font-family: 'Cutive Mono', monospace;
+  margin-right: 2%;
+}
+.mentions :hover
+{
+  color: white;
+}
+.copyright
+{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1%;
+  font-size: 70%;
+}
+.copy
+{
+  margin-right: 0.5%;
+  font-family: 'Cutive Mono', monospace;
+}
+.date
+{
+  margin-left: 1%;
+  font-family: 'Cutive Mono', monospace;
+}
+.textcopy
+{
+  margin-left: 2%;
+  font-family: 'Cutive Mono', monospace;
+}
+.textcopy :hover
+{
+  color: white;
+}
+@media screen and (max-width: 700px){
+  .copyright 
+  {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+    font-size: 50%;
+    margin: auto;
+  }
+  .logoreseau 
+  {
+    display: flex;
+    justify-content: space-around;
+    font-size: 300%;
+    margin: auto;
+    padding: 7%;
+  }
+}
+
+
+
+
+/*----------Others----------*/
+.reveal-loaded .reveal [class*="reveal-"] {
+  opacity: 0!important;
+  transform: translateY(30px)!important;
+  transition: 0s!important;
+}
+
+.reveal-loaded [class*="reveal-"]{
+  transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+.reveal-loaded  .reveal-2 {
+  transition-delay: .1s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal [class*="reveal-"] {
+      opacity: 1!important;
+      transform: translateY(0px)!important;
+  }
+  [class*="reveal-"]{
+      transition-duration: 0s!important;
+      transition-delay: 0s!important;
+  }
+}
+
+
+
+
+
