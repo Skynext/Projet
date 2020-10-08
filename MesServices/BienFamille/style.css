@@ -203,7 +203,7 @@ a {
 .imagebis img
 {
   border-radius: 15px;
-  border: solid rgb(147, 192, 175);
+  border: solid rgb(223, 189, 77);
 }
 .soustitrereflexo
 {
@@ -345,7 +345,7 @@ a {
 .quisuisje3 img
 {
     border-radius: 10px;
-    border: solid rgb(147, 192, 175);
+    border: solid rgb(223, 189, 77);
 }
 .test
 {
@@ -377,7 +377,7 @@ a {
 }
 .arrow
 {
-  margin-top: 7%;
+  margin-top: 9%;
   transition: all 1000s;
 }
 .cadre1 :hover
