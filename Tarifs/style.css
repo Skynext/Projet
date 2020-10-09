@@ -346,7 +346,7 @@ a {
   }
 }
 /*----------Forfait-----------*/
-.grpbis
+/*.grpbis
 {
   margin: 5% auto;
   border-radius: 10px;
@@ -372,6 +372,7 @@ a {
   margin-top: 6%;
   margin-left: 90%;
 }
+*/
 .grpformule
 {
   display: flex;
@@ -415,7 +416,7 @@ a {
   margin-top: 10%;
   margin-left: 80%;
 }
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
   .grpbis
   {
     margin: 5% auto;
@@ -434,9 +435,9 @@ a {
     margin-top: 7%;
     margin-left: 80%;
   }
-}
+}*/
 @media screen and (max-width: 700px) {
-  .grpbis
+  /*.grpbis
   {
     margin: 15% auto;
     border-radius: 10px;
@@ -444,7 +445,7 @@ a {
     text-align: center;
     width: 350px;
     height: 200px;
-  }
+  }*/
   .grp
   {
     margin: 10% auto;
@@ -454,14 +455,14 @@ a {
     width: 350px;
     height: 200px;
   }
-  .etiquette1bis
+  /*.etiquette1bis
   {
     width: 25%;
     margin: auto;
     transform: rotate(20deg);
     margin-top: 0%;
     margin-left: 70%;
-  }
+  }*/
   .etiquette1 
   {
     width: 25%;

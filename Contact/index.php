@@ -130,10 +130,10 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
     
     @mail($destinataire, $sujet, $contenu, $headers); // Fonction principale qui envoi l'email
     
-    echo '<h2 style="color: rgb(147, 192, 175);display: flex;justify-content: center;border: 1px solid;width: 320px;margin: 5% auto;
-    border-radius: 5px; font-family: 'Cutive Mono', monospace;">Message Bien Envoyé !</h2>'; // Afficher un message pour indiquer que le message a été envoyé
+    echo '<h2 style="color: rgb(98 173 98);display: flex;justify-content: center;border: 1px solid;width: 300px;margin: 5% auto;
+    border-radius: 5px;">Message Bien Envoyé !</h2>'; // Afficher un message pour indiquer que le message a été envoyé
   } else { // S'il y a un moins une erreur
-    echo '<div style="border: 1px solid #ff0000;padding: 5px;display: flex;flex-direction: column;text-align: center;margin: 5% auto;width: 350px;border-radius: 10px; font-family: 'Cutive Mono', monospace;">';
+    echo '<div style="border: 1px solid #ff0000;padding: 5px;display: flex;flex-direction: column;text-align: center;margin: 5% auto;width: 350px;border-radius: 10px;">';
     echo '<p style="color: #ff0000;">Désolé, il y a eu '.$nombreErreur.' erreur(s). Voici le détail des erreurs:</p>';
     if (isset($erreur1)) echo '<p>'.$erreur1.'</p>';
     if (isset($erreur2)) echo '<p>'.$erreur2.'</p>';
@@ -170,14 +170,6 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
     </form>
   </div>
 
-  <!-- Code injec       
-        $from="From: $name<$email>\r\nReturn-path: $email";
-        $subject="Message sent using your contact form";
-        mail("morpheuscryptto@gmail.com", $subject, $message, $from);
-        echo "Email sent!";
-        }
-    }  
-?>
         <!--Section Contact-->
         <div id="trait2"></div>
         <div class="mecontacter">
@@ -204,7 +196,6 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
                 <p class="textcontact">Samedi: 09h-19h00</p>
             </div>
         </div>
-    </div>
     
     
     <!--Footer-->
